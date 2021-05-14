@@ -10,6 +10,9 @@ public class homwork_1 {
             this.unit = unit;
             this.money = money;
         }
+        public String toString() {
+            return money+" "+unit;
+        }
     }
     public static void main(String[] args) {
         class KRW extends currency{

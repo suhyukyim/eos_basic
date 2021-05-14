@@ -7,9 +7,10 @@ public class Week4_practice_1 {
         int[] Numbs = new int[6];
         for (i = 0; i < 6; i++) {
             Numbs[i] = (int) (Math.random() * 45 + 1);
-            for (j = i + 1; j < 6; j++) {
+            for (j = 0; j < i; j++) {
                 if (Numbs[i] == Numbs[j]) {
-                    continue;
+                    Numbs[j] = (int) (Math.random()*45+1);
+                    j=0;
                 } else {
                     break;
                 }

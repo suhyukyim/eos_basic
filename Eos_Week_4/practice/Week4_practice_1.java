@@ -11,7 +11,8 @@ public class Week4_practice_1 {
                 if (Numbs[i] == Numbs[j]) {
                     Numbs[j] = (int) (Math.random()*45+1);
                     j=0;
-                } else {
+                } 
+                else {
                     break;
                 }
             }

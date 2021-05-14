@@ -17,33 +17,23 @@ public class homwork_1 {
                 super(money, unit);
 
             }
-            public void country(){
-                super.country();
-            }
+           
         }
         class USD extends currency{
             USD( double money,String unit) {
                 super(money , unit);
-            }
-            public void country(){
-                super.country();
             }
         }
         class EUR extends currency{
             EUR(double money,String unit) {
                 super(money, unit);
             }
-            public void country(){
-                super.country();
-            }
         }
         class JPY extends currency{
             JPY(double money,String unit) {
                 super(money, unit);
             }
-            public void country(){
-                super.country();
-            }
+    
         }
 
         KRW krw = new KRW(1500.0, "원");

@@ -14,7 +14,9 @@ public class HomeWork_1 {
         try {
             int num = readNum();
             call(str,num);
-        } finally{
+        }catch(IndwxOutIfBoundsException e){
+             System.out.println(e.getMessage());
+        }finally{
             System.out.println("해당 문장은 무조건 수행");
         }
     }
